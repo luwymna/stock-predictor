@@ -108,8 +108,7 @@ class StockLSTM(nn.Module):
 
 
 #train
-def train_model(model, X_train, y_train, X_test, y_test,
-                epochs, batch_size, lr):
+def train_model(model, X_train, y_train, X_test, y_test, epochs, batch_size, lr):
     train_ds = TensorDataset(torch.from_numpy(X_train), torch.from_numpy(y_train))
     test_ds = TensorDataset(torch.from_numpy(X_test), torch.from_numpy(y_test))
     train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=False)
