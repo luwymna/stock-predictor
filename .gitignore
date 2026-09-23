@@ -1,18 +1,18 @@
-# Virtual environment
+#virtual environment
 venv/
 .venv/
 
-# Python cache
+#python cache
 __pycache__/
 *.py[cod]
 
-# Trained models (large files)
+#trained models (large files)
 *.pt
 
-# Test files
+#test files
 t.wav
 test.wav
 
-# OS junk
+#OS junk
 .DS_Store
 Thumbs.db
